@@ -15,6 +15,7 @@ const App = () => {
           <Route path="users">
             <Route index element={<List />} />
             <Route path=":id" element={<Single />} />
+            <Route path="new" element={<New />} />
           </Route>
           <Route path="products">
             <Route index element={<List />} />

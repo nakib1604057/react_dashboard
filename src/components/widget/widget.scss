@@ -1,0 +1,37 @@
+.widget {
+  .widget-card {
+    padding: 15px;
+  }
+
+  .widget-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-pat1 {
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: gray;
+      text-transform: uppercase;
+    }
+    .header-pat2 {
+      color: rgb(17, 190, 17);
+      display: flex;
+      //   font-size: 15px;
+      align-items: center;
+      justify-content: center;
+      //   font-weight: bold;
+    }
+  }
+  .widget-center {
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .widget-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
