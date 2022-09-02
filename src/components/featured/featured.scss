@@ -1,0 +1,63 @@
+.featured {
+  .ft-card {
+    padding: 15px;
+  }
+  .ft-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      color: rgb(161, 159, 159);
+      font-weight: 600;
+    }
+  }
+  .ft-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    .ft-chart {
+      width: 100px;
+      height: 100px;
+    }
+    .ft-des {
+      color: rgb(161, 159, 159);
+      font-weight: 500;
+    }
+    .ft-dol {
+      text-align: center;
+      font-size: 35px;
+    }
+  }
+  .ft-footer {
+    padding: 0px 20px;
+    text-align: center;
+    p {
+      color: rgb(161, 159, 159);
+    }
+
+    .items {
+      padding-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .ft-ta {
+        display: flex;
+        justify-content: center;
+      }
+      .positive {
+        color: green;
+      }
+      .negative {
+        color: red;
+      }
+    }
+  }
+}

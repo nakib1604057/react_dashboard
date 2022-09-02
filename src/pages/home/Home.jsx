@@ -8,6 +8,8 @@ import PaidOutlinedIcon from "@mui/icons-material/PaidOutlined";
 import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
 import { Grid, Box } from "@mui/material";
 import "./home.scss";
+import Charts from "../../components/charts/Charts";
+import Featured from "../../components/featured/Featured";
 
 const Home = () => {
   return (
@@ -60,6 +62,16 @@ const Home = () => {
               </Grid>
             </Grid>
           </Box>
+        </div>
+        <div className="charts">
+          <Grid container spacing={3}>
+            <Grid item xs={4} md={4} sm={6} xs={6}>
+              <Featured />
+            </Grid>
+            <Grid item xs={8} md={8} sm={6} xs={6}>
+              <Charts />
+            </Grid>
+          </Grid>
         </div>
       </div>
     </div>
